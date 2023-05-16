@@ -1,14 +1,19 @@
 import React from "react";
-const SingleEntity = ({ entity, url, phone, email }) => {
+const SingleEntity = ({ entity, url, phone, email, services }) => {
   return (
     <article>
-      <h5>
-        <u>
-          <a href={url}>{entity} assistance </a>
-        </u>
-      </h5>
+      {url && (
+        <h5>
+          <u>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {entity} assistance
+            </a>
+          </u>
+        </h5>
+      )}
       {phone && <h5>{phone}</h5>}
       {email && <h5>{email}</h5>}
+      {services && <h5>Services: {services}</h5>}
       <hr />
       <br />
     </article>

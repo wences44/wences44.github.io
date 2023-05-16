@@ -6,14 +6,17 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("a");
+  const [searchTerm, setSearchTerm] = useState("");
   const [countriess, setCountriess] = useState([]);
 
   const fetchPaiss = useCallback(() => {
     setLoading(true);
     try {
-      if (countries) {
-        const newCountries = countries.map((item) => {
+      const matchingCountries = countries.filter(function (el) {
+        return el.name.toUpperCase().startsWith(searchTerm.toUpperCase());
+      });
+      if (matchingCountries) {
+        const newCountries = matchingCountries.map((item) => {
           const { id, name, flag, entities } = item;
 
           return {
@@ -33,6 +36,7 @@ const AppProvider = ({ children }) => {
       setLoading(false);
     }
   }, [searchTerm]);
+
   useEffect(() => {
     fetchPaiss();
   }, [searchTerm, fetchPaiss]);
