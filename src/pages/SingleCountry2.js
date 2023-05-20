@@ -8,14 +8,20 @@ export default function SingleCountry() {
   const { name, flag, entities } = countries[id - 1];
   return (
     <section className="section country-section">
-      <Link to="/" className="btn btn-primary">
-        back home
-      </Link>
-      <h2 className="section-title">{name}</h2>
+      <div className="row">
+        <div className="column">
+          <h2 className="section-title">{name}</h2>
+          <img src={flag} alt={name} height="180px"></img>
+        </div>
+        <div className="column">
+          <Link to="/" className="btn btn-primary">
+            back home
+          </Link>
+        </div>
+      </div>
+      <br></br>
       <div className="pais">
-        <img src={flag} alt={name} height="180px"></img>
-        <div className="pais-info">
-          <br />
+        <div>
           {entities.map((item) => {
             return <SingleEntity key={item.id} {...item}></SingleEntity>;
           })}

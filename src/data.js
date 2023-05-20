@@ -6,10 +6,19 @@ const countries = [
     entities: [
       {
         id: 1,
+        entity: "Goverment",
+        url: "https://www.oesterreich.gv.at/en/themen/gesundheit_und_notfaelle/Informationen-f%C3%BCr-ukrainische-Staatsangeh%C3%B6rige.html",
+        phone: "+43 1 715 10 51 - 120",
+      },
+      {
+        id: 2,
         entity: "United Nations",
-        url: "https://help.unhcr.org/austria/",
-        phone: "",
-        email: "",
+        url: "https://help.unhcr.org/austria/information-for-ukrainian-nationals/",
+      },
+      {
+        id: 3,
+        entity: "European Union Agency for Asylum PDF Booklet",
+        url: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjRos_ruf3-AhUcM0QIHUALCuMQFnoECCkQAQ&url=https%3A%2F%2Feuaa.europa.eu%2Fsites%2Fdefault%2Ffiles%2F2022-06%2FBooklet_Austria_EN.pdf&usg=AOvVaw1de_uczdn_DMa8HMqQlJts",
       },
     ],
   },
@@ -20,8 +29,34 @@ const countries = [
     entities: [
       {
         id: 1,
+        entity: "Government",
+        url: "https://info-ukraine.be/en/assistance-belgium",
+        services:
+          "Legal aid, accomodation, medical care, education for youth and more",
+      },
+      {
+        id: 2,
+        entity: "Brussels city",
+        url: "https://www.helpukraine.brussels/en",
+        services:
+          "Legal aid, accomodation, medical care, education for youth and more",
+      },
+      {
+        id: 3,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-belgium-%d1%8f-%d0%b2-%d0%b1%d0%b5%d0%bb%d1%8c%d0%b3%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+      {
+        id: 4,
         entity: "United Nations",
-        url: "https://help.unhcr.org/belgium/",
+        url: "https://help.unhcr.org/belgium/en/ukraine-situation/",
+      },
+      {
+        id: 5,
+        entity: "European Union Agency for Asylum PDF Booklet",
+        url: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiGu4Dg7__-AhUglmoFHXeJAo0QFnoECB4QAQ&url=https%3A%2F%2Feuaa.europa.eu%2Fsites%2Fdefault%2Ffiles%2F2022-06%2FBooklet_Belgium_EN.pdf&usg=AOvVaw3GrU0vRsb4kuNmSL1pbF7_",
       },
     ],
   },
@@ -32,8 +67,29 @@ const countries = [
     entities: [
       {
         id: 1,
+        entity: "Government",
+        url: "https://ukraine.gov.bg/",
+        phone: " +380/322-465-075",
+        services:
+          "legal aid, accommodation, medical care, humanitarian help and more",
+      },
+      {
+        id: 2,
         entity: "United Nations",
-        url: "https://help.unhcr.org/bulgaria/",
+        url: "https://help.unhcr.org/bulgaria/information-for-ukrainian-nationals/",
+      },
+      {
+        id: 3,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-bulgaria-%D1%8F-%D0%B2-%D0%B1%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D1%96%D1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+      {
+        id: 4,
+        entity: "UN migration",
+        url: "https://bulgaria.iom.int/ukraine-response",
+        services: "Migration",
       },
     ],
   },
@@ -60,6 +116,13 @@ const countries = [
         entity: "United Nations",
         url: "https://help.unhcr.org/czech",
       },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/uk/i-am-in-czech-republic-%d1%8f-%d0%b2-%d1%87%d0%b5%d1%85%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
@@ -76,6 +139,19 @@ const countries = [
   },
   {
     id: 7,
+    name: "Estonia",
+    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/EE.svg",
+    entities: [
+      {
+        id: 1,
+        entity: "United Nations",
+        url: "https://help.unhcr.org/estonia/information-for-people-fleeing-ukraine/",
+        phone: "+36 80 984 583",
+      },
+    ],
+  },
+  {
+    id: 8,
     name: "Finland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg",
     entities: [
@@ -88,7 +164,7 @@ const countries = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     name: "France",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg",
     entities: [
@@ -97,15 +173,29 @@ const countries = [
         entity: "United Nations",
         url: "https://help.unhcr.org/france/informations-pour-les-personnes-qui-arrivent-dukraine/",
       },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-france-%d1%8f-%d1%83-%d1%84%d1%80%d0%b0%d0%bd%d1%86%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
-    id: 9,
+    id: 10,
     name: "Georgia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/GE.svg",
     entities: [
       {
         id: 1,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-georgia-%d1%8f-%d0%b2-%d0%b3%d1%80%d1%83%d0%b7%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+      {
+        id: 2,
         entity: "Ambassador Hotel",
         phone: "Contact +995800800909",
         services:
@@ -114,7 +204,7 @@ const countries = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     name: "Germany",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg",
     entities: [
@@ -141,13 +231,20 @@ const countries = [
       },
       {
         id: 4,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-germany-%d1%8f-%d0%b2-%d0%bd%d1%96%d0%bc%d0%b5%d1%87%d1%87%d0%b8%d0%bd%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+      {
+        id: 5,
         entity: "United Nations",
         url: "https://help.unhcr.org/germany/information-on-ukraine/",
       },
     ],
   },
   {
-    id: 11,
+    id: 12,
     name: "Greece",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/GR.svg",
     entities: [
@@ -165,7 +262,7 @@ const countries = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     name: "Hungary",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/HU.svg",
     entities: [
@@ -181,10 +278,17 @@ const countries = [
         url: "https://help.unhcr.org/hungary/",
         phone: "+36 80 984 583",
       },
+      {
+        id: 3,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-hungary-%d1%8f-%d0%b2-%d1%83%d0%b3%d0%be%d1%80%d1%89%d0%b8%d0%bd%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
-    id: 13,
+    id: 14,
     name: "Italy",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
     entities: [
@@ -194,10 +298,17 @@ const countries = [
         url: "https://help.unhcr.org/italy/",
         phone: "+36 80 984 583",
       },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-italy-%d1%8f-%d0%b2-%d1%96%d1%82%d0%b0%d0%bb%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
-    id: 14,
+    id: 15,
     name: "Ireland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
     entities: [
@@ -209,7 +320,7 @@ const countries = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     name: "Iceland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/IS.svg",
     entities: [
@@ -221,7 +332,61 @@ const countries = [
     ],
   },
   {
-    id: 16,
+    id: 17,
+    name: "Latvia",
+    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/LV.svg",
+    entities: [
+      {
+        id: 1,
+        entity: "United Nations",
+        url: "https://help.unhcr.org/latvia/information-for-people-fleeing-ukraine/",
+        phone: "+36 80 984 583",
+      },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-latvia-%d1%8f-%d0%b2-%d0%bb%d0%b0%d1%82%d0%b2%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+    ],
+  },
+  {
+    id: 18,
+    name: "Lithuania",
+    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/LT.svg",
+    entities: [
+      {
+        id: 1,
+        entity: "United Nations",
+        url: "https://help.unhcr.org/lithuania/information-for-people-fleeing-ukraine/",
+        phone: "+36 80 984 583",
+      },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-lithuania-%d1%8f-%d0%b2-%d0%bb%d0%b8%d1%82%d0%b2%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+    ],
+  },
+  {
+    id: 19,
+    name: "Luxembourg",
+    flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/LU.svg",
+    entities: [
+      {
+        id: 1,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-luxembourg-%d1%8f-%d0%b2-%d0%bb%d1%8e%d0%ba%d1%81%d0%b5%d0%bc%d0%b1%d1%83%d1%80%d0%b7%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+    ],
+  },
+  {
+    id: 20,
     name: "Moldova",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/MD.svg",
     entities: [
@@ -254,7 +419,7 @@ const countries = [
     ],
   },
   {
-    id: 17,
+    id: 21,
     name: "Netherlands",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/NL.svg",
     entities: [
@@ -268,7 +433,7 @@ const countries = [
     ],
   },
   {
-    id: 18,
+    id: 22,
     name: "Norway",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/NO.svg",
     entities: [
@@ -282,7 +447,7 @@ const countries = [
     ],
   },
   {
-    id: 19,
+    id: 23,
     name: "Poland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg",
     entities: [
@@ -307,6 +472,13 @@ const countries = [
       },
       {
         id: 4,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-poland-%d1%8f-%d0%b2-%d0%bf%d0%be%d0%bb%d1%8c%d1%89%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+      {
+        id: 5,
         entity: "United Nations",
         url: "https://help.unhcr.org/poland/information-for-new-arrivals-from-ukraine/",
         phone: "",
@@ -314,7 +486,7 @@ const countries = [
     ],
   },
   {
-    id: 20,
+    id: 24,
     name: "Portugal",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/PT.svg",
     entities: [
@@ -323,10 +495,17 @@ const countries = [
         entity: "United Nations",
         url: "https://help.unhcr.org/portugal/information-for-people-fleeing-ukraine/",
       },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-portugal-%d1%8f-%d0%b2-%d0%bf%d0%be%d1%80%d1%82%d1%83%d0%b3%d0%b0%d0%bb%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
-    id: 21,
+    id: 25,
     name: "Romania",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/RO.svg",
     entities: [
@@ -345,10 +524,17 @@ const countries = [
         phone: "(004) 0213126210",
         email: "office@cnrr.ro",
       },
+      {
+        id: 3,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/uk/i-am-in-romania-%d1%8f-%d0%b2-%d1%80%d1%83%d0%bc%d1%83%d0%bd%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
-    id: 22,
+    id: 26,
     name: "Serbia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg",
     entities: [
@@ -360,7 +546,7 @@ const countries = [
     ],
   },
   {
-    id: 23,
+    id: 27,
     name: "Slovakia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg",
     entities: [
@@ -371,11 +557,18 @@ const countries = [
         phone: "",
         email: "",
       },
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-slovakia-%d1%8f-%d0%b2-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%87%d1%87%d0%b8%d0%bd%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
 
   {
-    id: 24,
+    id: 28,
     name: "Slovenia",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/SI.svg",
     entities: [
@@ -398,7 +591,7 @@ const countries = [
     ],
   },
   {
-    id: 25,
+    id: 29,
     name: "Spain",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg",
     entities: [
@@ -416,7 +609,7 @@ const countries = [
     ],
   },
   {
-    id: 26,
+    id: 30,
     name: "Sweden",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg",
     entities: [
@@ -427,10 +620,18 @@ const countries = [
         phone: "",
         email: "",
       },
+
+      {
+        id: 2,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/uk/i-am-in-sweden-%d1%8f-%d0%b2-%d1%88%d0%b2%d0%b5%d1%86%d1%96%d1%97/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
     ],
   },
   {
-    id: 27,
+    id: 31,
     name: "Switzerland",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/CH.svg",
     entities: [
@@ -444,21 +645,56 @@ const countries = [
     ],
   },
   {
-    id: 28,
+    id: 32,
     name: "United Kingdom",
     flag: "http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg",
     entities: [
       {
         id: 1,
-        entity: "Government Visas ",
+        entity: "Government Visas",
         url: "https://taplink.cc/bakhutiklaw",
       },
       {
-        id: 1,
+        id: 2,
+        entity: "World Jewish Relief",
+        url: "https://www.worldjewishrelief.org/news/1269-urgent-update-ukraine-crisis",
+        services:
+          "Offers Ukrainians in the UK help and advice with language and employment.",
+      },
+      {
+        id: 3,
+        entity: "Sterling Law",
+        url: "https://sterling-law.co.uk/services/",
+        phone: "02078228535",
+        services: "Offer registration for asylum on a simplified process.",
+      },
+      {
+        id: 4,
+        entity: "Ukrainian Institute London",
+        url: "https://refugee-support.ukrainianinstitute.org.uk/",
+        services:
+          "Useful links, information and guidance for UK hosts looking to support Ukrainians and for Ukrainians arriving in the UK.",
+        email: "info@ukrainianinstitute.org.uk",
+      },
+      {
+        id: 5,
         entity: "United Nations",
         url: "https://help.unhcr.org/uk/unhcr-uk-information-and-links-regarding-ukraine/",
         phone: "",
         email: "",
+      },
+      {
+        id: 6,
+        entity: "International Diabetes Federation",
+        url: "https://www.connectsolidarity.eu/i-am-in-the-united-kingdom-%d1%8f-%d1%83-%d1%81%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%be%d0%bc%d1%83-%d0%ba%d0%be%d1%80%d0%be%d0%bb%d1%96%d0%b2%d1%81%d1%82%d0%b2%d1%96/",
+        services:
+          "Rights as Ukrainian refugees, Support for people with diabetes, useful links",
+      },
+      {
+        id: 7,
+        entity: "National Funding Scheme",
+        url: "https://www.nationalfundingscheme.org/ukraine",
+        services: "Homestay in the UK for Ukrainian citizens.",
       },
     ],
   },

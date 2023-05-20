@@ -5,9 +5,11 @@ const SingleEntity = ({ entity, url, phone, email, services }) => {
       {url && (
         <h5>
           <u>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              {entity} assistance
-            </a>
+            <p>
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {entity} assistance
+              </a>
+            </p>
           </u>
         </h5>
       )}
