@@ -100,6 +100,25 @@ const countries = [
     entities: [
       {
         id: 1,
+        entity: "Government",
+        url: "https://hrvatskazaukrajinu.gov.hr/ua",
+        services: "Inmigration, Health Care, Accommodation and more",
+      },
+      {
+        id: 2,
+        entity: "European Commision",
+        url: "https://ec.europa.eu/migrant-integration/library-document/croatia-useful-information-displaced-persons-ukraine_en",
+        services: "Accommodation and useful information",
+      },
+      {
+        id: 3,
+        entity: "Expat in Croatia",
+        url: "https://www.expatincroatia.com/ukraine-citizens/",
+        services:
+          "Inmigration, Consulting, Accommodation, Citizenship, Daily Life",
+      },
+      {
+        id: 4,
         entity: "United Nations",
         url: "https://help.unhcr.org/croatia/",
       },
