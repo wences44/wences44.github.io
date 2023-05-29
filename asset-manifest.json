@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wences44.github.io/static/css/main.fdbb0f34.chunk.css",
+    "main.js": "/wences44.github.io/static/js/main.afad0d64.chunk.js",
+    "main.js.map": "/wences44.github.io/static/js/main.afad0d64.chunk.js.map",
+    "runtime-main.js": "/wences44.github.io/static/js/runtime-main.cdc8ebf1.js",
+    "runtime-main.js.map": "/wences44.github.io/static/js/runtime-main.cdc8ebf1.js.map",
+    "static/js/2.8a0ff5f3.chunk.js": "/wences44.github.io/static/js/2.8a0ff5f3.chunk.js",
+    "static/js/2.8a0ff5f3.chunk.js.map": "/wences44.github.io/static/js/2.8a0ff5f3.chunk.js.map",
+    "index.html": "/wences44.github.io/index.html",
+    "precache-manifest.6397d8322c3ba0a4df8bd171d6c56e9b.js": "/wences44.github.io/precache-manifest.6397d8322c3ba0a4df8bd171d6c56e9b.js",
+    "service-worker.js": "/wences44.github.io/service-worker.js",
+    "static/css/main.fdbb0f34.chunk.css.map": "/wences44.github.io/static/css/main.fdbb0f34.chunk.css.map",
+    "static/js/2.8a0ff5f3.chunk.js.LICENSE.txt": "/wences44.github.io/static/js/2.8a0ff5f3.chunk.js.LICENSE.txt",
+    "static/media/kyndryl-logo2.svg": "/wences44.github.io/static/media/kyndryl-logo2.297e08ce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdc8ebf1.js",
+    "static/js/2.8a0ff5f3.chunk.js",
+    "static/css/main.fdbb0f34.chunk.css",
+    "static/js/main.afad0d64.chunk.js"
+  ]
+}
