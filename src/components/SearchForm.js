@@ -21,6 +21,7 @@ const SearchForm = () => {
         </div>
         <input
           type="text"
+          size="80"
           id="name"
           name="name"
           ref={searchValue}
