@@ -1,7 +1,7 @@
 {
   "name": "reminder",
   "version": "0.1.0",
-  "homepage": "http://wences44.github.io/help-ukraine",
+  "homepage": "https://wences44.github.io/wences44.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -13,6 +13,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
